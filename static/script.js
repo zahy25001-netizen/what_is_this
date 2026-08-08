@@ -8,21 +8,11 @@ function showMessage() {
     message.innerHTML = `
 
         <h2>
-            Aheng... ❤️
+            Aheng... 
         </h2>
 
         <p>
-            Sebenarnya aku sudah lama
-            ingin mengatakan ini.
-        </p>
-
-        <p>
-            Aku suka sama kamu. ❤️
-        </p>
-
-        <p>
-            Dan karena hari ini aku akhirnya
-            berani menyampaikan semuanya...
+            Aishiteru... seperti makna dari bunga camelia merah.
         </p>
 
         <div class="gift-message">
