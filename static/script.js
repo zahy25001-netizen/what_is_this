@@ -17,10 +17,6 @@ function showMessage() {
 
         <div class="gift-message">
 
-            <h2>
-                Cieee, yang dapet hadiahh 🤭🎁
-            </h2>
-
             <p>
                 Ini memang cuma hadiah kecil,
                 tapi aku kasih dengan perasaan
