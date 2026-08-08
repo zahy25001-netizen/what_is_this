@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Untuk Aheng ❤️</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="heart">
+            ❤️
+        </div>
+
+        <h1>
+            Hai, Aheng.
+        </h1>
+
+        <p>
+            Ada sesuatu yang ingin aku sampaikan
+            kepadamu...
+        </p>
+
+        <button onclick="showMessage()">
+            Buka pesannya 💌
+        </button>
+
+        <div id="message" class="hidden">
+
+            <h2>
+                Aheng...
+            </h2>
+
+            <p>
+                Sebenarnya aku sudah lama ingin
+                mengatakan ini.
+            </p>
+
+            <p>
+                Aku suka sama kamu. ❤️
+            </p>
+
+            <p>
+                Jadi...
+            </p>
+
+            <h2>
+                Mau nggak jadi orang spesial
+                buat aku?
+            </h2>
+
+            <div class="buttons">
+
+                <button class="yes"
+                        onclick="yesAnswer()">
+                    MAU ❤️
+                </button>
+
+                <button class="no"
+                        onclick="noAnswer()">
+                    NGGAK 😭
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}">
+    </script>
+
+</body>
+
+</html>
